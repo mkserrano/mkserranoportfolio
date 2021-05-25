@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use RealRashid\SweetAlert\Facades\Alert;
+
 
 /*
 |--------------------------------------------------------------------------
@@ -14,5 +16,10 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
+
     return view('welcome');
 });
+
+Route::get('/welcome', [App\Http\Controllers\EmailController::class, 'contact'])->name('home');
+
+Route::post('/welcome', [App\Http\Controllers\EmailController::class, 'contactSubmit'])->name('contact.submit');

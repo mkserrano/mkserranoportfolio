@@ -62,53 +62,45 @@ header
     top: 0;
     left: 0;
     width: 100%;
-    padding: 40px 100px;
-    z-index: 1000;
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 15px 200px;
+    z-index: 10;
     background: #557A95;
-    height: 3px;
-}
-header .sticky
-{
-    background: #fff;
-    padding: 40px 100px;
-    box-shadow: 0 5px 20px rgba(0,0,0,0.1);
 }
 header .logo
 {
-    color:#F5FFFA;
-    font-size: 25px;
-    text-transform: uppercase;
+    position: relative;
+    font-size: 20px;
+    color: #fff;
     text-decoration: none;
-    font-weight: 700;
-    letter-spacing: 2px;
+    font-weight: 500;
 }
-header .sticky .logo
+header .navigation
+{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin: 10px 0;
+
+}
+header .navigation li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+header .navigation li a
 {
     color: #fff;
-}
-header ul
-{
-    position: relative;
-    display: flex;
-}
-header ul li
-{
-    position: relative;
-    list-style: none;
-}
-header ul li a
-{
-    position: relative;
-    display: inline-block;
-    margin: 0 15px;
-    color: #F5FFFA;
     text-decoration: none;
     font-size: 15px;
-    font-weight: 500;
-    
+    font-weight: 100;
+    letter-spacing: 1px;
+}
+header .navigation li a:hover
+{
+    color: #000;
 }
 
 /* about me */
@@ -121,8 +113,11 @@ header ul li a
 }
 .heading h2
 {
-    font-weight: 500;
-    font-size: 30px;
+    font-weight: 100;
+    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    
 }
 .content
 {
@@ -133,34 +128,39 @@ header ul li a
 {
     padding-right: 50px;
 }
-.contentBx h3
+.contentBx h2
 {
-    font-size: 20px;
+    justify-content: center;
+    text-align: center;
+    font-size: 30px;
     margin-bottom: 10px;
+    font-weight: 500;
+    
 
 }
-.w50
+.contentp p
 {
-   margin-left: 50px;
-   min-width: 35%; 
- 
+    justify-content: center;
+    text-align: center;
+  
 }
 .me{
     width: 250px;
     clip-path: circle();
-    margin-left: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    margin-bottom: 10px;
     
 }
-img
-{
-    max-width: 100%;
-}
+
 
 /* skill */
 
 .services
 {
     background: #111;
+    padding-top: 100px
 }
 .heading.white
 {
@@ -314,13 +314,14 @@ img
 }
 
 
-/* Responsive */
-@media (max-width: 900px)
+
+@media (max-width: 991px)
 {
     header
     {
-        padding: 20px 50px;
-        z-index: 1000;
+        padding: 15px 20px;
+        height: 80px;
+        flex-direction: column;
     } 
     .menu
     {
@@ -400,20 +401,12 @@ img
     }
 
 }
-/* For mobile phones: */
-@media only screen and (max-width: 768px) {
-    [class*="col-"] {
-      width: 100%;
-    }
-  }
-
-/* for scroll reveal */
 .reveal
 {
     position: relative;
     transform: translateY(150px);
     opacity: 0;
-    transition: all 2s ease;
+    transition: all 1s ease;
 }
 .reveal.active
 {
