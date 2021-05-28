@@ -103,6 +103,11 @@ header .navigation li a:hover
 }
 
 /* about me */
+.about
+{
+    justify-content: center;
+    align-items: center;
+}
 .heading
 {
     width: 100%;
@@ -129,10 +134,10 @@ header .navigation li a:hover
 }
 .contentBx h2
 {
-    font-family: sans-serif;
+    font-family: helvetica;
     justify-content: center;
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -140,6 +145,8 @@ header .navigation li a:hover
 {
     justify-content: center;
     text-align: center;
+    margin-left: 15px;
+    margin-right: auto;
 }
 .me{
     width: 200px;
@@ -355,7 +362,6 @@ header .navigation li a:hover
     }
     .banner
     {
-
         padding: 150px 50px 100px;
     }
     .banner h2{
@@ -381,6 +387,7 @@ header .navigation li a:hover
     .w50 {
         min-width: 50%;
         margin-bottom: 20px;
+        
     }
     .services .content .servicesBx
     {   
