@@ -137,7 +137,7 @@ header .navigation li a:hover
     font-family: helvetica;
     justify-content: center;
     text-align: center;
-    font-size: 25px;
+    font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
 }
@@ -324,7 +324,7 @@ header .navigation li a:hover
     header
     {
         padding: 15px 30px;
-        height: 115px;
+        height: 118px;
         flex-direction: column;
     } 
     .menu
@@ -385,6 +385,11 @@ header .navigation li a:hover
         flex-direction: column;
     }
     .w50 {
+        min-width: 50%;
+        margin-bottom: 20px;
+        
+    }
+    .me {
         min-width: 50%;
         margin-bottom: 20px;
         
