@@ -71,8 +71,8 @@ header
 }
 header .logo
 {
-    position: relative;
     font-size: 30px;
+    font-family: monospace;
     color: #fff;
     font-weight: 700;
 }
@@ -129,22 +129,20 @@ header .navigation li a:hover
 }
 .contentBx h2
 {
+    font-family: sans-serif;
     justify-content: center;
     text-align: center;
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
-    
-
 }
-.contentp p
+.contentp 
 {
     justify-content: center;
     text-align: center;
-  
 }
 .me{
-    width: 250px;
+    width: 200px;
     clip-path: circle();
     margin-left: auto;
     margin-right: auto;
@@ -318,8 +316,8 @@ header .navigation li a:hover
 {
     header
     {
-        padding: 5px 30px;
-        height: 100px;
+        padding: 15px 30px;
+        height: 115px;
         flex-direction: column;
     } 
     .menu
