@@ -103,6 +103,12 @@ header .navigation li a:hover
 }
 
 /* about me */
+.heading
+{
+    width: 100%;
+    text-align: center;
+    margin-bottom: 30px;
+}
 .about
 {
     justify-content: center;
@@ -140,13 +146,14 @@ header .navigation li a:hover
     font-size: 30px;
     margin-bottom: 10px;
     font-weight: 500;
+    margin-left: 45px;
 }
 .contentp 
 {
     justify-content: center;
     text-align: center;
-    margin-left: 15px;
     margin-right: auto;
+    margin-left: 50px;
 }
 .me{
     width: 200px;
@@ -160,7 +167,6 @@ header .navigation li a:hover
 
 
 /* skill */
-
 .services
 {
     background: #111;
@@ -387,6 +393,7 @@ header .navigation li a:hover
     .w50 {
         min-width: 50%;
         margin-bottom: 20px;
+        margin-left: 45px;
         
     }
     .me {
