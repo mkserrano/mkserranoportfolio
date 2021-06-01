@@ -44,7 +44,6 @@
                 <a href="resume/myresume.pdf" class="btn" download>My Resume</a>
             </div>
         </section>
-
         <section class="about" id="about">
         <div class="content">
             <div class="contentBx reveal">
